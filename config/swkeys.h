@@ -35,16 +35,3 @@
  */
 // Row 1
 #define SE_SECT GRAVE  // §
-#define SE_1    N1    // 1
-#define SE_2    N2    // 2
-#define SE_3    N3    // 3
-#define SE_4    N4    // 4
-#define SE_5    N5    // 5
-#define SE_6    N6    // 6
-#define SE_7    N7    // 7
-#define SE_8    N8    // 8
-#define SE_9    N9    // 9
-#define SE_0    N0    // 0
-#define SE_PLUS KP_MINUS // +
-#define SE_ACUT EQUAL  // ´ (dead)
-
