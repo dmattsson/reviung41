@@ -18,4 +18,6 @@
 #define SE_AA LBKT // å Å
 
 
+#define SE_SECT GRAVE  // §
+
 
