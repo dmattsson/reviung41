@@ -11,7 +11,8 @@
 
 #include <dt-bindings/zmk/keys.h>
 
-// Mappings:
+// Resources:
+// https://github.com/zmkfirmware/zmk/blob/main/app/include/dt-bindings/zmk/keys.h
 // https://github.com/qmk/qmk_firmware/blob/master/quantum/keymap_extras/keymap_swedish.h
 // https://github.com/denniskempin/dubu36/blob/main/generate_keymap.py
 
@@ -32,5 +33,5 @@
  */
 // Row 1
 #define SE_SECT GRAVE  // §
-
+#define SE_1    N1    // 1
 
