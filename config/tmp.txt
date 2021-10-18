@@ -1,18 +1,5 @@
 
 
-// Row 4
-#define SE_LABK NON_US_BACKSLASH // <
-#define SE_Z    Z    // Z
-#define SE_X    X    // X
-#define SE_C    C    // C
-#define SE_V    V    // V
-#define SE_B    B    // B
-#define SE_N    N    // N
-#define SE_M    M    // M
-#define SE_COMM KC_COMM // ,
-#define SE_DOT  KC_DOT  // .
-#define SE_MINS SLASH // -
-
 
 /* Shifted symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐

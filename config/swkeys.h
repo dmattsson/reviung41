@@ -73,3 +73,16 @@
 #define SE_ODIA SEMI // Ö
 #define SE_ADIA SQT // Ä
 #define SE_QUOT NON_US_HASH // '
+
+// Row 4
+#define SE_LABK NON_US_BACKSLASH // <
+#define SE_Z    Z    // Z
+#define SE_X    X    // X
+#define SE_C    C    // C
+#define SE_V    V    // V
+#define SE_B    B    // B
+#define SE_N    N    // N
+#define SE_M    M    // M
+#define SE_COMM COMMA // ,
+#define SE_DOT  DOT  // .
+#define SE_MINS SLASH // -
