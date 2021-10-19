@@ -25,16 +25,17 @@
    &kp LCTRL     &kp A      &mt LALT S      &kp D       &kp F       &kp G   &kp H   &kp J  &kp K     &kp L   &kp SE_OE   &kp SE_AE
    &mt LSHFT TAB &kp Z      &mt LALT X      &kp C       &kp V       &kp B   &kp N   &kp M  &kp COMMA &kp DOT &kp BSPC    &mt RSHFT RET
 
-                        &kp LGUI    &mo 1   &mt LALT SPACE  &mo 2   &kp LALT
+                                            &kp LGUI    &mo 1   &mt LALT SPACE  &mo 2   &kp LALT
                         >;
                 };
 
                 lower_layer {
                         bindings = <
-   &trans          &kp F1          &kp F2          &kp F3          &kp F4     &kp SE_QUES        &trans       &kp SE_EQL   &kp SE_LBRC  &kp SE_RBRC  &kp DEL      &trans
-   &trans       &kp SE_AT       &kp SE_DQUO     &kp SE_QUOT     &kp SE_LCBR     &kp SE_RCBR       &trans       &kp SE_SLSH     &kp SE_LPRN    &kp SE_RPRN     &kp SE_UNDS     &kp SE_HALF
-   &mo 3       &kp SE_PERC     &kp SE_AMPR     &kp SE_LABK     &kp SE_RABK     &kp SE_EXLM       &trans       &kp SE_BSLS     &kp SE_PIPE    &trans          &trans          &mt RSHFT RET
-                                                      &trans      &trans       &kp RET        &mo 3       &trans
+   &trans      &kp F1          &kp F2          &kp F3              &kp F4          &kp SE_QUES        &trans      &kp SE_EQL      &kp SE_LBRC    &kp SE_RBRC     &kp DEL         &trans
+   &trans      &kp SE_AT       &kp SE_DQUO     &kp SE_QUOT         &kp SE_LCBR     &kp SE_RCBR       &trans       &kp SE_SLSH     &kp SE_LPRN    &kp SE_RPRN     &kp SE_UNDS     &kp SE_HALF
+   &mo 3       &kp SE_PERC     &kp SE_AMPR     &kp SE_LABK         &kp SE_RABK     &kp SE_EXLM       &trans       &kp SE_BSLS     &kp SE_PIPE    &trans          &trans          &mt RSHFT RET
+
+                                                      &trans       &trans       &kp RET        &mo 3       &trans
                         >;
                 };
 

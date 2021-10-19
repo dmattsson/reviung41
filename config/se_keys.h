@@ -148,13 +148,16 @@
 #define SE_PND  RA(SE_3)    // £
 #define SE_DLR  RA(SE_4)    // $
 #define SE_EURO RA(SE_5)    // €
-#define SE_LCBR RA(SE_7)    // {
-#define SE_LBRC RA(SE_8)    // [
+// win: #define SE_LCBR RA(SE_7)    // { win
+// win: #define SE_LBRC RA(SE_8)    // [ win
+#define SE_LCBR LS(RA(SE_8))    // { mac
+#define SE_LBRC LS(RA(SE_9))    // [ mac
 #define SE_RBRC RA(SE_9)    // ]
 #define SE_RCBR RA(SE_0)    // }
 #define SE_BSLS RA(SE_PLUS) // (backslash)
 // Row 2
 #define SE_TILD RA(SE_DIAE) // ~ (dead)
 // Row 4
-#define SE_PIPE RA(SE_LABK) // |
+//#define SE_PIPE RA(SE_LABK) // | win
+#define SE_PIPE RA(SE_7) // | mac
 #define SE_MICR RA(SE_M)    // µ
