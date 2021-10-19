@@ -78,7 +78,7 @@
 #define SE_QUOT NON_US_HASH // '
 
 // Row 4
-//#define SE_LABK NON_US_BACKSLASH // <
+#define SE_LABK GRAVE // <
 #define SE_Z    Z    // Z
 #define SE_X    X    // X
 #define SE_C    C    // C
@@ -126,7 +126,7 @@
 // Row 3
 #define SE_ASTR LS(SE_QUOT) // *
 // Row 4
-//#define SE_RABK LS(SE_LABK) // >
+#define SE_RABK LS(SE_LABK) // >
 #define SE_SCLN LS(SE_COMM) // ;
 #define SE_COLN LS(SE_DOT)  // :
 #define SE_UNDS LS(SE_MINS) // _
