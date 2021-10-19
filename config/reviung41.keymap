@@ -18,7 +18,7 @@
                         bindings = <
    &kp ESC       &kp Q      &kp W      &kp E       &kp R       &kp T                                                    &kp Y   &kp U  &kp I     &kp O   &kp P       &kp SE_AA
    &mo 1         &kp A      &kp S      &kp D       &kp F       &kp G                                                    &kp H   &kp J  &kp K     &kp L   &kp SE_OE   &kp SE_AE
-   &mt LSHFT TAB &kp Z      &kp X      &kp C       &kp V       &kp B                                                    &kp N   &kp M  &kp COMMA &kp DOT &kp BSPC    &mt RSHFT RET
+   &kp LSHFT     &kp Z      &kp X      &kp C       &kp V       &kp B                                                    &kp N   &kp M  &kp COMMA &kp DOT &kp BSPC    &mt RSHFT RET
 
                                             &kp LCTRL    &kp LGUI   &kp SPACE  &mo 2   &kp LALT
                         >;
@@ -27,10 +27,10 @@
                 lower_layer {
                         bindings = <
    &trans      &kp SE_DLR      &kp SE_ASTR     &kp SE_PLUS         &kp SE_MINS     &kp SE_QUES        &kp SE_EQL        &kp SE_LBRC     &kp SE_LCBR    &kp SE_RCBR     &kp SE_RBRC     &trans
-   &trans      &kp SE_AT       &kp SE_DQUO     &kp SE_QUOT         &kp SE_LCBR     &kp SE_RCBR        &kp SE_COLN       &kp SE_SCLN     &kp SE_LPRN    &kp SE_RPRN     &kp SE_UNDS     &kp SE_HALF
+   &trans      &kp SE_AT       &kp SE_DQUO     &kp SE_QUOT         &kp TAB         &kp SE_RCBR        &kp SE_COLN       &kp SE_SCLN     &kp SE_LPRN    &kp SE_RPRN     &kp SE_UNDS     &kp SE_HALF
    &mo 3       &kp SE_PERC     &kp SE_AMPR     &kp SE_LABK         &kp SE_RABK     &kp SE_EXLM        &kp SE_SLSH       &kp SE_BSLS     &kp SE_PIPE    &trans          &trans          &mt RSHFT RET
 
-                                                      &trans       &trans       &kp RET        &mo 3       &trans
+                                                      &kp BSPC       &kp DEL       &kp RET        &mo 3       &trans
                         >;
                 };
 
