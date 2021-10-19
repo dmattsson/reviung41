@@ -58,6 +58,7 @@
 #define SE_O    O    // O
 #define SE_P    P    // P
 #define SE_ARNG LBKT // Å
+#define SE_AA   SE_ARNG
 #define SE_DIAE RBKT // ¨ (dead)
 
 // Row 3
@@ -71,7 +72,9 @@
 #define SE_K    K    // K
 #define SE_L    L    // L
 #define SE_ODIA SEMI // Ö
+#define SE_OE   SE_ODIA
 #define SE_ADIA SQT // Ä
+#define SE_AE   SE_ADIA
 #define SE_QUOT NON_US_HASH // '
 
 // Row 4
