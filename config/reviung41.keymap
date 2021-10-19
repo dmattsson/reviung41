@@ -9,7 +9,11 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 
-
+/*
+   &trans       &kp F1          &kp F2          &kp F3          &kp F4          &kp SE_QUES       &trans       &kp SE_EQL      &kp SE_LBRC    &kp SE_RBRC     &kp SE_DEL      &trans
+   &trans       &kp SE_AT       &kp SE_DQUO     &kp SE_QUOT     &kp SE_LCBR     &kp SE_RCBR       &trans       &kp SE_SLSH     &kp SE_LPRN    &kp SE_RPRN     &kp SE_UNDS     &kp SE_HALF
+   &trans       &kp SE_PERC     &kp SE_AMPR     &kp SE_LABK     &kp SE_RABK     &kp SE_EXLM       &trans       &kp SE_BSLS     &kp SE_PIPE    &trans          &trans          &mt RSHFT RET
+*/
 
 / {
         keymap {
@@ -26,10 +30,9 @@
 
                 lower_layer {
                         bindings = <
-   &trans       &kp F1          &kp F2          &kp F3          &kp F4          &kp SE_QUES       &trans       &kp SE_EQL      &kp SE_LBRC    &kp SE_RBRC     &kp SE_DEL      &trans
-   &trans       &kp SE_AT       &kp SE_DQUO     &kp SE_QUOT     &kp SE_LCBR     &kp SE_RCBR       &trans       &kp SE_SLSH     &kp SE_LPRN    &kp SE_RPRN     &kp SE_UNDS     &kp SE_HALF
-   &trans       &kp SE_PERC     &kp SE_AMPR     &kp SE_LABK     &kp SE_RABK     &kp SE_EXLM       &trans       &kp SE_BSLS     &kp SE_PIPE    &trans          &trans          &mt RSHFT RET
-
+   &none           &none           &none           &none           &none &none              &reset       &none        &none        &none        &none        &none
+   &none           &none           &none           &none           &none &none              &reset       &none        &none        &none        &none        &non
+   &none           &none           &none           &none           &none &none              &reset       &none        &none        &none        &none        &none
                                                       &trans      &trans       &kp RET        &mo 3       &trans
                         >;
                 };
