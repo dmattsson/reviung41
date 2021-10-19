@@ -26,7 +26,7 @@
    &kp LGUI     &kp A      &mt LALT S      &kp D       &kp F       &kp G   &kp H   &kp J  &kp K     &kp L   &kp SE_OE   &kp SE_AE
    &mt LSHFT TAB &kp Z      &mt LALT X      &kp C       &kp V       &kp B   &kp N   &kp M  &kp COMMA &kp DOT &kp BSPC    &mt RSHFT RET
 
-                                            &kp LCTRL    &mo 1   &mt LALT SPACE  &mo 2   &kp LALT
+                                            &kp LCTRL    &mo 1   &kp SPACE  &mo 2   &kp LALT
                         >;
                 };
 
