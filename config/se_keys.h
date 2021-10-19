@@ -107,3 +107,55 @@
  */
 // Row 1
 #define SE_HALF LS(SE_SECT) // ½
+#define SE_EXLM LS(SE_1)    // !
+#define SE_DQUO LS(SE_2)    // "
+#define SE_HASH LS(SE_3)    // #
+#define SE_CURR LS(SE_4)    // ¤
+#define SE_PERC LS(SE_5)    // %
+#define SE_AMPR LS(SE_6)    // &
+#define SE_SLSH LS(SE_7)    // /
+#define SE_LPRN LS(SE_8)    // (
+#define SE_RPRN LS(SE_9)    // )
+#define SE_EQL  LS(SE_0)    // =
+#define SE_QUES LS(SE_PLUS) // ?
+#define SE_GRV  LS(SE_ACUT) // ` (dead)
+
+
+// Row 2
+#define SE_CIRC LS(SE_DIAE) // ^ (dead)
+// Row 3
+#define SE_ASTR LS(SE_QUOT) // *
+// Row 4
+#define SE_RABK LS(SE_LABK) // >
+#define SE_SCLN LS(SE_COMM) // ;
+#define SE_COLN LS(SE_DOT)  // :
+#define SE_UNDS LS(SE_MINS) // _
+
+/* AltGr symbols
+ * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
+ * │   │   │ @ │ £ │ $ │ € │   │ { │ [ │ ] │ } │ \ │   │       │
+ * ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─────┤
+ * │     │   │   │   │   │   │   │   │   │   │   │   │ ~ │     │
+ * ├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┐    │
+ * │      │   │   │   │   │   │   │   │   │   │   │   │   │    │
+ * ├────┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴───┴────┤
+ * │    │ | │   │   │   │   │   │   │ µ │   │   │   │          │
+ * ├────┼───┴┬──┴─┬─┴───┴───┴───┴───┴───┴──┬┴───┼───┴┬────┬────┤
+ * │    │    │    │                        │    │    │    │    │
+ * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
+ */
+// Row 1
+#define SE_AT   RA(SE_2)    // @
+#define SE_PND  RA(SE_3)    // £
+#define SE_DLR  RA(SE_4)    // $
+#define SE_EURO RA(SE_5)    // €
+#define SE_LCBR RA(SE_7)    // {
+#define SE_LBRC RA(SE_8)    // [
+#define SE_RBRC RA(SE_9)    // ]
+#define SE_RCBR RA(SE_0)    // }
+#define SE_BSLS RA(SE_PLUS) // (backslash)
+// Row 2
+#define SE_TILD RA(SE_DIAE) // ~ (dead)
+// Row 4
+#define SE_PIPE RA(SE_LABK) // |
+#define SE_MICR RA(SE_M)    // µ
