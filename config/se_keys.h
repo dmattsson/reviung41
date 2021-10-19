@@ -16,7 +16,6 @@
 // https://github.com/qmk/qmk_firmware/blob/master/quantum/keymap_extras/keymap_swedish.h
 // https://github.com/denniskempin/dubu36/blob/main/generate_keymap.py
 
-#define SE_AA LBKT // å Å
 
 /*
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
