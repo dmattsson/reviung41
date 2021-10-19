@@ -149,11 +149,11 @@
 #define SE_DLR  RA(SE_4)    // $
 #define SE_EURO RA(SE_5)    // €
 // win: #define SE_LCBR RA(SE_7)    // { win
-// win: #define SE_LBRC RA(SE_8)    // [ win
 #define SE_LCBR LS(RA(SE_8))    // { mac
-#define SE_LBRC LS(RA(SE_9))    // [ mac
+#define SE_LBRC RA(SE_8)    // [
 #define SE_RBRC RA(SE_9)    // ]
-#define SE_RCBR RA(SE_0)    // }
+//#define SE_RCBR RA(SE_0)    // } win
+#define SE_RCBR LS(RA(SE_9))    // } mac
 //#define SE_BSLS RA(SE_PLUS) // (backslash) win
 #define SE_BSLS LS(RA(SE_7)) // (backslash) mac
 // Row 2
