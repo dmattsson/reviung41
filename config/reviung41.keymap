@@ -17,19 +17,20 @@
 
                 default_layer {
                         bindings = <
-   &kp ESC       &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P       &kp SE_AA
-   &kp LCTRL     &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SE_OE   &kp SE_AE
-   &mt LSHFT TAB &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp BSPC    &mt RSHFT RET
+   &kp ESC       &kp Q      &kp W           &kp E       &kp R       &kp T   &kp Y   &kp U  &kp I     &kp O   &kp P       &kp SE_AA
+   &kp LCTRL     &kp A      &mt LALT S      &kp D       &kp F       &kp G   &kp H   &kp J  &kp K     &kp L   &kp SE_OE   &kp SE_AE
+   &mt LSHFT TAB &kp Z      &mt LALT X      &kp C       &kp V       &kp B   &kp N   &kp M  &kp COMMA &kp DOT &kp BSPC    &mt RSHFT RET
                         &kp LGUI  &mo 1 &kp SPACE &mo 2  &kp LALT
                         >;
                 };
 
                 lower_layer {
                         bindings = <
-   &trans       &kp F1          &kp F2      &kp F3      &kp F4      &kp PRCNT      &kp CARET &kp AMPS &kp N8    &kp LPAR  &kp RPAR  &kp DEL
-   &trans       &kp MINUS       &kp KP_PLUS &kp LBRC    &kp RBRC    &kp PIPE       &kp PG_UP &kp HOME &kp UP    &kp END   &kp SE_AA &kp GRAVE
-   &trans       &kp ESC         &kp LGUI    &kp LALT    &kp CLCK    &kp SQT        &kp PG_DN &kp LEFT &kp DOWN  &kp RIGHT &kp PSCRN &mt RSHFT RET
-                                 &trans      &trans       &kp RET        &mo 3       &trans
+   &trans       &kp F1          &kp F2          &kp F3          &kp F4          &kp SE_QUES       &trans       &kp SE_EQL      &kp SE_LBRC    &kp SE_RBRC     &kp SE_DEL      &trans
+   &trans       &kp SE_AT       &kp SE_DQUO     &kp SE_QUOT     &kp SE_LCBR     &kp SE_RCBR       &trans       &kp SE_SLSH     &kp SE_LPRN    &kp SE_RPRN     &kp SE_UNDS     &kp SE_HALF
+   &trans       &kp SE_PERC     &kp SE_AMPR     &kp SE_LABK     &kp SE_RABK     &kp SE_EXLM       &trans       &kp SE_BSLS     &kp SE_PIPE    &trans          &trans          &mt RSHFT RET
+
+                                                      &trans      &trans       &kp RET        &mo 3       &trans
                         >;
                 };
 
