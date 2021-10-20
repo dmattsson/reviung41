@@ -37,7 +37,7 @@
                 raise_layer {
                         bindings = <
    &trans &kp F1        &kp F2          &kp F3              &kp F4          &kp SE_TILD                                 &kp F1          &kp F2          &kp F3              &kp F4       &kp BSPC           &trans
-   &trans &kp SE_DIAE   &kp SE_ACUT     &kp SE_GRV          &kp SE_CIRC     &kp K_VOLUME_UP                             &kp PG_UP        &kp HOME        &kp UP_ARROW      &kp END           &kp PRINTSCREEN    &trans
+   &mo 3 &kp SE_DIAE   &kp SE_ACUT     &kp SE_GRV          &kp SE_CIRC     &kp K_VOLUME_UP                             &kp PG_UP        &kp HOME        &kp UP_ARROW      &kp END           &kp PRINTSCREEN    &trans
    &mo 3  &kp SE_SECT   &kp C_MUTE      &kp C_PLAY_PAUSE    &kp C_NEXT      &kp C_VOLUME_DOWN                           &kp PG_DN        &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW   &kp DEL            &trans
                                 &trans      &mo 3       &kp BSPC        &trans      &trans
                         >;
@@ -47,7 +47,7 @@
                         bindings = <
    &none    &kp N1       &kp N2       &kp N3 &kp N4       &kp N5                                                        &kp N6     &kp N7       &kp N8       &kp N9       &kp N0         &none
    &rgb_ug RGB_BRD &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_EFR &none &none                                          &none        &kp N4       &kp N5       &kp N6       &none        &none
-   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR                                          &reset       &kp N1       &kp N2       &kp N3       &none        &none
+   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR                                          &kp N0       &kp N1       &kp N2       &kp N3       &none        &none
                                                              &trans      &trans       &tog 3        &kp N0      &trans
                         >;
                 };
