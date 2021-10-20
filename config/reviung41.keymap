@@ -28,7 +28,7 @@
                         bindings = <
    &trans      &kp SE_DLR      &kp SE_ASTR     &kp SE_PLUS         &kp SE_MINS     &kp SE_QUES        &kp SE_EQL        &kp SE_LBRC     &kp SE_LCBR    &kp SE_RCBR     &kp SE_RBRC     &trans
    &trans      &kp SE_AT       &kp SE_DQUO     &kp SE_QUOT         &kp TAB         &kp SE_HASH        &kp SE_COLN       &kp SE_SCLN     &kp SE_LPRN    &kp SE_RPRN     &kp SE_UNDS     &kp SE_HALF
-   &mo 3       &kp SE_PERC     &kp SE_AMPR     &kp SE_LABK         &kp SE_RABK     &kp SE_EXLM        &kp SE_SLSH       &kp SE_BSLS     &kp SE_PIPE    &trans          &trans          &mt RSHFT RET
+   &mo 3       &kp SE_PERC     &kp SE_AMPR     &kp SE_LABK         &kp SE_RABK     &kp SE_EXLM        &kp SE_SLSH       &kp SE_BSLS     &kp SE_PIPE    &trans          &kp DEL          &mt RSHFT RET
 
                                                       &kp BSPC       &trans      &kp RET        &mo 3       &trans
                         >;
