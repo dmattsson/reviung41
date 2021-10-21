@@ -12,6 +12,7 @@
 / {
     combos {
         compatible = "zmk,combos";
+
         combo_esc {
             timeout-ms = <50>;
             key-positions = <0 1>;
@@ -23,7 +24,18 @@
                     key-positions = <1 2>;
                     bindings = <&kp F1>;
                 };
-    };
+
+       combo_f2 {
+                   timeout-ms = <50>;
+                   key-positions = <2 3>;
+                   bindings = <&kp F2>;
+                };
+
+       combo_f3 {
+                  timeout-ms = <50>;
+                  key-positions = <3 4>;
+                  bindings = <&kp F3>;
+                };
 };
 
 / {
