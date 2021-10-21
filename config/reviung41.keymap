@@ -9,6 +9,22 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
+        };
+
+        combo_f1 {
+                    timeout-ms = <50>;
+                    key-positions = <1 2>;
+                    bindings = <&kp F1>;
+                };
+    };
+};
 
 / {
         keymap {
@@ -16,7 +32,7 @@
 
                 default_layer {
                         bindings = <
-   &kp ESC       &kp Q      &kp W      &kp E       &kp R       &kp T                                                    &kp Y   &kp U  &kp I     &kp O   &kp P       &kp SE_AA
+   &mo 3         &kp Q      &kp W      &kp E       &kp R       &kp T                                                    &kp Y   &kp U  &kp I     &kp O   &kp P       &kp SE_AA
    &mo 1         &kp A      &kp S      &kp D       &kp F       &kp G                                                    &kp H   &kp J  &kp K     &kp L   &kp SE_OE   &kp SE_AE
    &mt LSHFT TAB &kp Z      &kp X      &kp C       &kp V       &kp B                                                    &kp N   &kp M  &kp COMMA &kp DOT &kp BSPC    &mt RSHFT RET
 
