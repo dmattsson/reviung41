@@ -34,7 +34,7 @@
                         bindings = <
    &mo 3         &kp Q      &kp W      &kp E       &kp R       &kp T                                                    &kp Y   &kp U  &kp I     &kp O   &kp P       &kp SE_AA
    &mo 1         &kp A      &kp S      &kp D       &kp F       &kp G                                                    &kp H   &kp J  &kp K     &kp L   &kp SE_OE   &kp SE_AE
-   &mt LSHFT TAB &kp Z      &kp X      &kp C       &kp V       &kp B                                                    &kp N   &kp M  &kp COMMA &kp DOT &kp BSPC    &mt RSHFT RET
+   &kp LSHFT     &kp Z      &kp X      &kp C       &kp V       &kp B                                                    &kp N   &kp M  &kp COMMA &kp DOT &kp BSPC    &mt RSHFT RET
 
                                             &kp LCTRL    &kp LGUI   &kp SPACE  &mo 2   &kp LALT
                         >;
@@ -43,17 +43,17 @@
                 lower_layer {
                         bindings = <
    &trans      &kp SE_DLR      &kp SE_ASTR     &kp SE_PLUS         &kp SE_MINS     &kp SE_QUES        &kp SE_EQL        &kp SE_LBRC     &kp SE_LCBR    &kp SE_RCBR     &kp SE_RBRC     &trans
-   &trans      &kp SE_AT       &kp SE_DQUO     &kp SE_QUOT         &kp SE_LCBR     &kp SE_RCBR        &kp SE_COLN       &kp SE_SCLN     &kp SE_LPRN    &kp SE_RPRN     &kp SE_UNDS     &kp SE_HALF
-   &mo 3       &kp SE_PERC     &kp SE_AMPR     &kp SE_LABK         &kp SE_RABK     &kp SE_EXLM        &kp SE_SLSH       &kp SE_BSLS     &kp SE_PIPE    &trans          &trans          &mt RSHFT RET
+   &trans      &kp SE_AT       &kp SE_DQUO     &kp SE_QUOT         &kp TAB         &kp SE_HASH        &kp SE_COLN       &kp SE_SCLN     &kp SE_LPRN    &kp SE_RPRN     &kp SE_UNDS     &kp SE_HALF
+   &mo 3       &kp SE_PERC     &kp SE_AMPR     &kp SE_LABK         &kp SE_RABK     &kp SE_EXLM        &kp SE_SLSH       &kp SE_BSLS     &kp SE_PIPE    &trans          &kp DEL          &mt RSHFT RET
 
-                                                      &trans       &trans       &kp RET        &mo 3       &trans
+                                                      &kp BSPC       &trans      &kp RET        &mo 3       &trans
                         >;
                 };
 
                 raise_layer {
                         bindings = <
    &trans &kp F1        &kp F2          &kp F3              &kp F4          &kp SE_TILD                                 &kp F1          &kp F2          &kp F3              &kp F4       &kp BSPC           &trans
-   &trans &kp SE_DIAE   &kp SE_ACUT     &kp SE_GRV          &kp SE_CIRC     &kp K_VOLUME_UP                             &kp PG_UP        &kp HOME        &kp UP_ARROW      &kp END           &kp PRINTSCREEN    &trans
+   &mo 3 &kp SE_DIAE   &kp SE_ACUT     &kp SE_GRV          &kp SE_CIRC     &kp K_VOLUME_UP                             &kp PG_UP        &kp HOME        &kp UP_ARROW      &kp END           &kp PRINTSCREEN    &trans
    &mo 3  &kp SE_SECT   &kp C_MUTE      &kp C_PLAY_PAUSE    &kp C_NEXT      &kp C_VOLUME_DOWN                           &kp PG_DN        &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW   &kp DEL            &trans
                                 &trans      &mo 3       &kp BSPC        &trans      &trans
                         >;
@@ -63,7 +63,7 @@
                         bindings = <
    &none    &kp N1       &kp N2       &kp N3 &kp N4       &kp N5                                                        &kp N6     &kp N7       &kp N8       &kp N9       &kp N0         &none
    &rgb_ug RGB_BRD &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_EFR &none &none                                          &none        &kp N4       &kp N5       &kp N6       &none        &none
-   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR                                          &reset       &kp N1       &kp N2       &kp N3       &none        &none
+   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR                                          &kp N0       &kp N1       &kp N2       &kp N3       &none        &none
                                                              &trans      &trans       &tog 3        &kp N0      &trans
                         >;
                 };
